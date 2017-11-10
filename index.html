@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>index</title>
+		<script type="text/javascript" src="eventhandle.js"></script>
+	</head>
+	<body>
+		<label>Enter Key :</label><input id="txtk" name="ktxt" type="text"/>
+		<label>Enter value :</label><input id="txtv" name="vtxt" type="text"/>
+		<br/>
+		<br/>
+		<button id="btnsl" onclick="set.call('l')">Store in Local storage</button>
+		<br/>
+		<br/>
+		<button id="btnss" onclick="set.call('s')">Store in session storage</button>
+		<br/>
+		<br/>
+		<button id="btngl" onclick="getAll.call('l')">Get all Local storage</button>
+		<br/>
+		<br/>
+		<button id="btngs" onclick="getAll.call('s')">Get all session storage</button>
+		<br/>
+		<br/>
+		<button id="btndl" onclick="delAll.call('l')">Delete all Local storage</button>
+		<br/>
+		<br/>
+		<button id="btnds" onclick="delAll.call('s')">Delete all session storage</button>
+		<br/>
+		<br/>
+		<button id="btnac" onclick="addCookie.call()">Add to cookie</button>
+		<br/>
+		<br/>
+		<button id="btnsc" onclick="showCookies.call()">Show all cookies</button>
+	</body>
+</html>
